@@ -1,0 +1,62 @@
+/*styling for the header*/
+header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgb(8, 8, 8);
+    height: 100px;
+    width: 100%;
+    font-size: 40px;
+    color: white;
+    font-family: 'arial', arial, monospace;
+}
+/*styling to flex wrap the role cards*/
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+.nameTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(144, 144, 163);
+    color: white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+/*    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;*/
+}
+
+
+/*styling for the bottom of the role cards*/
+section {
+    height: 200px;
+    width: 50%;
+    background-color: rgb(205, 205, 205);
+}
+    /*border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/*styling for the top for the role cards*/
+.nameTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(144, 144, 163);
+    color: white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+/*styling to take off the bullet point on the list*/
+ul {
+    list-style-type: none;
+}
