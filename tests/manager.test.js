@@ -23,7 +23,7 @@ describe('Intern', () =>{
 
     describe('getName',() =>{
         it('should set the section of the object name', () => {
-            let name = 'dave';
+            let name = 'Zak';
             let obj = new Manager(name)
             expect(obj.getName()).toEqual(name);
         });
@@ -31,7 +31,7 @@ describe('Intern', () =>{
 
     describe('getId',()=>{
         it('should set the section of the object id', ()=>{
-            let name = 'dave'
+            let name = 'Zak'
             let id = 1;
             let obj = new Manager(name,id);
             expect(obj.getId()).toEqual(id)
@@ -40,16 +40,16 @@ describe('Intern', () =>{
 
     describe('getEmail',()=>{
       it('should set the section of the object email',()=>{
-        let email = 'dave@gmail.com';
-        let obj = new Manager('dave', 1, email)
+        let email = 'zak@gmail.com';
+        let obj = new Manager('Zak', 1, email)
         expect(obj.getEmail()).toEqual(email);
       });
     });
     
     describe('getOfficeNumber',()=>{
         it('should set the section of the object officeNumber', ()=>{
-            let officeNumber = '555-555-5555'
-            let obj = new Manager('dave', 1, 'dave@gmail.com', officeNumber);
+            let officeNumber = '222-222-2222'
+            let obj = new Manager('Zak', 1, 'zak@gmail.com', officeNumber);
             expect(obj.getOfficeNumber()).toEqual(officeNumber)
         });
     });

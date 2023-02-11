@@ -23,7 +23,7 @@ describe('Engineer', () =>{
 
     describe('getName',() =>{
         it('should set the section of the object name', () => {
-            let name = 'dave';
+            let name = 'Zak';
             let obj = new Engineer(name)
             expect(obj.getName()).toEqual(name);
         });
@@ -31,7 +31,7 @@ describe('Engineer', () =>{
 
     describe('getId',()=>{
         it('should set the section of the object id', ()=>{
-            let name = 'dave'
+            let name = 'Zak'
             let id = 1;
             let obj = new Engineer(name,id);
             expect(obj.getId()).toEqual(id)
@@ -40,7 +40,7 @@ describe('Engineer', () =>{
 
     describe('getEmail',()=>{
       it('should set the section of the object email',()=>{
-        let email = 'dave@gmail.com';
+        let email = 'zak@gmail.com';
         let obj = new Engineer('dave', 1, email)
         expect(obj.getEmail()).toEqual(email);
       });
@@ -48,8 +48,8 @@ describe('Engineer', () =>{
     
     describe('getGithub',()=>{
         it('should set the section of the object github', ()=>{
-            let github = 'mrgreen12375'
-            let obj = new Engineer('dave', 1, 'dave@gmail.com', github);
+            let github = 'zakgithub'
+            let obj = new Engineer('Zak', 1, 'zak@gmail.com', github);
             expect(obj.getGithub()).toEqual(github)
         });
     });
